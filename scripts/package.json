@@ -1,4 +1,6 @@
-"build":  "webpack --mode production && xdg-open ./dist/index.html",
+{
+"scripts": {
+    "build":  "webpack --mode production && xdg-open ./dist/index.html",
     "b":      "webpack --mode production && xdg-open ./dist/index.html",
 
     "build-no-open":  "webpack --mode production",
@@ -18,3 +20,5 @@
 
     "watch":  "webpack --mode production --watch",  
     "w":      "webpack --mode production --watch"
+  }
+}
