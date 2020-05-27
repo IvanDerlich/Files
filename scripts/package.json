@@ -8,11 +8,9 @@
   "b":      "webpack --mode production && xdg-open ./dist/index.html",
   "bn":     "webpack --mode production",
 
-  "dev-open":  "webpack --mode development && xdg-open ./dist/index.html",
-  "do":    "webpack --mode development && xdg-open ./dist/index.html",
-
-  "dev":  "webpack --mode development",
-  "q":    "webpack --mode development",
+  "dev":  "webpack --mode development && xdg-open ./dist/index.html",
+  "q":    "webpack --mode development && xdg-open ./dist/index.html",
+  "qn":   "webpack --mode development",  
 
   "test": "jest",
   "t":    "jest",
