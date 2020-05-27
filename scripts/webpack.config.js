@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 
 const config = {
-  entry: './src/index.js',
+  entry: './src/scripts/main.js',
   module: {
     rules: [
       {
