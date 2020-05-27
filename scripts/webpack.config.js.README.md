@@ -1,3 +1,0 @@
-## Used in:
-
-Weather app
