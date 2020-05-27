@@ -1,15 +1,20 @@
-{
-  "scripts": {
-    "deploy": "webpack --mode production && git add -A && git commit -m 'Deploy to gh-pages' && git push -d origin gh-pages && git push && git subtree push --prefix dist origin gh-pages && xdg-open https://github.com/IvanDerlich/weather-app/tree/gh-pages",
-    "build": "webpack --mode production && xdg-open ./dist/index.html",
-    "build-no-open": "webpack --mode production",
-    "dev": "webpack --mode development && xdg-open ./dist/index.html",
-    "dev-no-open": "webpack --mode development",
-    "start": "webpack-dev-server --mode development --open",
-    "watch": "webpack --mode production --watch",
-    "b": "webpack --mode production && xdg-open ./dist/index.html",
-    "bn": "webpack --mode production",
-    "s": "webpack-dev-server --mode development --open",
-    "w": "webpack --mode production --watch"
-  }
-}
+"build":  "webpack --mode production && xdg-open ./dist/index.html",
+    "b":      "webpack --mode production && xdg-open ./dist/index.html",
+
+    "build-no-open":  "webpack --mode production",
+    "bn":             "webpack --mode production",
+
+    "dev-open":  "webpack --mode development && xdg-open ./dist/index.html",
+    "do":    "webpack --mode development && xdg-open ./dist/index.html",
+
+    "dev":  "webpack --mode development",
+    "d":    "webpack --mode development",
+
+    "test": "jest",
+    "t":    "jest",
+
+    "start":  "webpack-dev-server --mode development --open",
+    "s":      "webpack-dev-server --mode development --open",
+
+    "watch":  "webpack --mode production --watch",  
+    "w":      "webpack --mode production --watch"
